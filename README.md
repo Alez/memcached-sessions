@@ -3,7 +3,7 @@ Session handler for with Zend Framework 1.
 That handler allows you to use a memcached server as storage for your sessions.
 
 # how to install
-composer install alez/memcached-sessions
+composer require alez/memcached-sessions
 
 # how to use
 Add to your application.ini
