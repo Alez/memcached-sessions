@@ -1,0 +1,28 @@
+{
+    "name": "alez/memcached-sessions",
+    "description": "Session handler that use memcached",
+    "type": "library",
+	"keywords": [
+        "memcached",
+        "sessions",
+        "zend",
+        "zf1"
+    ],
+    "require": {
+		"php": ">=5.3.0",
+        "zendframework/zendframework1": "^1.12@dev"
+    },
+    "license": "bsd",
+    "authors": [
+        {
+            "name": "Alez",
+            "email": "alez2005@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+	    "autoload": {
+        "psr-0": {
+          "MemcachedSessions": "src/"
+        }
+    }
+}
